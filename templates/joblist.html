@@ -15,7 +15,7 @@
         <tr class="my_row">
             <td class="ordinary" bgcolor="#eeeeff">{{ job.job.capitalize() }}</td>
             <td class="ordinary" bgcolor="#eeeeff">{{ names[job.team_leader -  1][0] }} {{ names[job.team_leader - 1][1] }}</td>
-            <td class="ordinary" bgcolor="#eeeeff" align="center">{{ job.work_size }} hours</td>
+            <td class="ordinary" bgcolor="#eeeeff" align="center">{{ job.worksize }} hours</td>
             <td class="ordinary" bgcolor="#eeeeff" align="center">{{ job.collaborators }}</td>
             {% if job.is_finished %}
             <td class="ordinary" bgcolor="#eeffee" align="center">Finished</td>
